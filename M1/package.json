@@ -1,0 +1,21 @@
+{
+  "name": "m1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "local": "DOTENV_CONFIG_PATH=./environments/local.env node server.js",
+    "live": "DOTENV_CONFIG_PATH=./environments/live.env node server.js"
+  },
+  "keywords": [],
+  "author": "Ravindra",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "mongoose": "^8.8.2"
+  }
+}
